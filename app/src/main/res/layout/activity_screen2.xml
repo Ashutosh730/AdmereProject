@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <Button
+        android:id="@+id/enterNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Mobile Number"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        android:drawableLeft="@drawable/mobile_phone_icon"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countinue with Facebook"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72"
+        android:drawableLeft="@drawable/mobile_phone_icon"
+        android:gravity="center"
+        tools:ignore="RtlCompat"
+        android:drawableStart="@drawable/mobile_phone_icon" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countinue with Google"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79"
+        android:drawableLeft="@drawable/mobile_phone_icon"
+        android:gravity="center"
+        tools:ignore="RtlCompat"
+        android:drawableStart="@drawable/mobile_phone_icon" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countinue with Email"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86"
+        android:drawableLeft="@drawable/mobile_phone_icon"
+        android:gravity="center"
+        tools:ignore="RtlCompat"
+        android:drawableStart="@drawable/mobile_phone_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By countinuing, You Agree To Our\nTerms of Servic &amp; Privacy Policy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    F69836-->

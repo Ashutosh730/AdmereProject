@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Admere Selvyn Private Limited Project"
