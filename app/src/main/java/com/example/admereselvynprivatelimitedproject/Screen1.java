@@ -8,12 +8,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Screen1 extends AppCompatActivity {
 
 //    Declaration of Views...
     private CardView getStarted;
-    private Button logIn;
+    private TextView logIn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

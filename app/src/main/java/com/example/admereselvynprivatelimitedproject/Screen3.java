@@ -64,14 +64,16 @@ public class Screen3 extends AppCompatActivity {
                                     Toast.makeText(Screen3.this, "Login failed", Toast.LENGTH_SHORT).show();
                                 }
                             } catch (JSONException e) {
-
+                                Log.e("Error",e.getMessage());
+                                Toast.makeText(Screen3.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                             }
 
                         }
                     }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Log.v("Error",error.getMessage());
+                    Log.e("Erroron",error.getMessage());
+                    Toast.makeText(Screen3.this, error.getMessage(), Toast.LENGTH_SHORT).show();
                 }
             });
 
