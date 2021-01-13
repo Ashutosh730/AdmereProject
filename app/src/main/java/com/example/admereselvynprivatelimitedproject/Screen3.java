@@ -75,8 +75,8 @@ public class Screen3 extends AppCompatActivity {
                 }
             });
 
-                RequestQueue queue = Volley.newRequestQueue(Screen3.this);
-                queue.add(request);
+            RequestQueue queue = Volley.newRequestQueue(Screen3.this);
+            queue.add(request);
             } catch (JSONException e) {
                 e.printStackTrace();
         }
